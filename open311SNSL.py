@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 '''
 Open311 API Library
 
@@ -11,9 +12,9 @@ class serviceList:
         '''
         Creating Object:
 
-        obj = Open311SNSL.serviceList('API ID ','API Key')
+        #obj = Open311SNSL.serviceList('API ID ','API Key')
 
-        obj = Open311SNSL.serviceList('12345','987654')
+        #obj = Open311SNSL.serviceList('12345','987654')
         '''
         self.id = ID
         self.key = Key
